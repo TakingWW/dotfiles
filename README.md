@@ -1,8 +1,8 @@
 # I don't like plugins
 I don't like to extend some third party projects with some third party plugins becuase its often conflicts with my likings and if it breaks i would have no clue about the source that causes the problem. Considering these projects i use in my day-day tasks are pretty well known and difficult to break, so if it does, usually the fault goes over the plugin and i'am not saving some time now to expend more latter.
 
-# Usage
-The direct dependencies are listed below. This is probably going to break because i placed a lot of static directorys calls (absolute path).
+# Warning
+The direct dependencies are listed below and they are probably going to due to absolute path calls, but don't be afraid to test or at least copy some of the content.
 
 # About configuration
 This configuration is pretty basic, i don't like installing a huge amount of fance things to please my eyes, so all dependencies are just necessery for me to do the job (i don't work).
