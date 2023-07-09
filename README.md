@@ -25,7 +25,7 @@ I'dont have any plugin installed, its a configuration totally from scratch, but 
 
 `nvim/lua/config.lua`: vim.op.(\*) and vim.g.(\*) definitions
 
-nvim/lua/lsp.lua`: Lsp configuration made using just the buitin lsp and lsp servers binarys (`rust-analyzer` and `clang` for now)
+`nvim/lua/lsp.lua`: Lsp configuration made using just the buitin lsp and lsp servers binarys (`rust-analyzer` and `clang` for now)
 
 `nvim/lua/map.lua`: Global and buffer especific mappings 
 
