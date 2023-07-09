@@ -56,5 +56,5 @@ I don't recomend you to use my configuration file. I say that because its pretty
 There are no documentation around any configuration file here, but, its pretty simple to undertand considering you know what are the propose of the respective tool you are digging
 
 # Daydream
-Some day i'll be completelly free of all third party softwares having my own OS, text editor, browser, version control system and so on, all of that hand made from scratch in C or Rust, without external librarys, anything but the compiler and standard librarys or even my own compiler and librarys kekw.
+Some day i'll be completelly free of all third party softwares having my own OS, text editor, browser, version control system and so on, all of that hand made from scratch in C or Rust, without external librarys, anything but the compiler and standard libraries or even my own compiler and libraries kekw.
 But for now i think thats ok to deppend on some others effort in doing great and robust software like these exposed here, not for nothing they are known in all seven seas.
