@@ -1,5 +1,5 @@
 # I don't like plugins
-I don't like to extend some third party projects with some third party plugins becuase its often conflicts with my likings and if it breaks i would have no clue about the source that causes the problem. Considering these projects i use in my day-day tasks are pretty well known and difficult to break, so if it does usually the fault goes over the plugin and i'am not saving some time now to expend more latter.
+I don't like to extend some third party projects with some third party plugins becuase its often conflicts with my likings and if it breaks i would have no clue about the source that causes the problem. Considering these projects i use in my day-day tasks are pretty well known and difficult to break, so if it does, usually the fault goes over the plugin and i'am not saving some time now to expend more latter.
 
 # Usage
 The direct dependencies are listed below. This is probably going to break because i placed a lot of static directorys calls (absolute path).
