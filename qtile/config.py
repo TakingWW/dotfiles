@@ -6,7 +6,6 @@ from libqtile.utils import guess_terminal
 mod = "mod4"
 terminal = "alacritty"
 browser = "firefox"
-volup = "vol -p 5"
 
 topbar = Screen(
         top=bar.Bar([
@@ -56,8 +55,8 @@ keys = [
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
     Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
     Key([mod], "b", lazy.hide_show_bar(), desc="testando"),
-    Key([mod], "up", lazy.spawn("sh /home/joao/.config/mess/volup.sh"), desc="Increase volume"),
-    Key([mod], "down", lazy.spawn("sh /home/joao/.config/mess/voldown.sh"), desc="Decrease volume"),
+    Key([mod], "up", lazy.spawn("sh /home/joao/.config/mess/volup.sh"), desc="Increase volume"), # Absolute path called here
+    Key([mod], "down", lazy.spawn("sh /home/joao/.config/mess/voldown.sh"), desc="Decrease volume"), # Absolute path called here
 ]
 groups = [
     Group(
