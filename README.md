@@ -50,7 +50,7 @@ I don't recomend you to use my configuration file. I say that because its pretty
 `tmux/tmux.conf`: Redefine the send-prefix bind to `C-s` and customize the statusline
 
 # About Qtile
-`qtile/config.py`: Contains the qtile's example configuration and some custom binds (stay tuned with absolute path in lines 58 and 59)
+`qtile/config.py`: Contains the qtile's example configuration and some custom binds
 
 # About documentation
 There are no documentation around any configuration file here, but, its pretty simple to undertand considering you know what are the propose of the respective tool you are digging
