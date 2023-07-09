@@ -32,6 +32,11 @@ I'dont have any plugin installed, its a configuration totally from scratch, but 
 `nvim/lua/lsp\_kind.lua`: Contains the definition of the kinds icons used in completion popup
 
 `nvim/lua/statusline.lua`: Custom statusline from scratch (don't have version control indicators - i don't had time to serach and do that -  and don't have lsp disgnostic information too - i don't like to have that in statusline -)
+## Limitations
+There are a few "features" that you may want to know abount this configuartion
+* Don't have automatic popup completion monu shown when you type, having to press `<c-space>` (Control + Space) for it to show
+* The completion don't append parentesis at fucntion call selection
+* Non exiting auto pair, if you place a character that the your language compiler expect you to place the oposit of it to close, like parentesis and curl brackets, the editor is not going to do that for you.
 
 # About Alacritty
 `alacritty/alacritty.yml`: Its a partial copy of the example configuration give by the [project](https://github.com/alacritty/alacritty) git page with some change in font and color
@@ -51,6 +56,5 @@ I don't recomend you to use my configuration file. I say that because its pretty
 There are no documentation around any configuration file here, but, its pretty simple to undertand considering you know what are the propose of the respective tool you are digging
 
 # Daydream
-Some day i will be completelly free of all third party softwares, i'll have my own OS, text editor, browser, version control system and so on, all of that hand made from scratch in C or Rust, without external librarys, anything but the compiler and standard librarys or even my own compiler and librarys kekw.
-
-But for now i think thats ok to deppend on some others effort in doing great and robust software like these, not for nothing they are known in all seven seas.
+Some day i'll be completelly free of all third party softwares having my own OS, text editor, browser, version control system and so on, all of that hand made from scratch in C or Rust, without external librarys, anything but the compiler and standard librarys or even my own compiler and librarys kekw.
+But for now i think thats ok to deppend on some others effort in doing great and robust software like these exposed here, not for nothing they are known in all seven seas.
