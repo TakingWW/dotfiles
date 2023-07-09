@@ -48,6 +48,7 @@ completion popup
 `nvim/lua/statusline.lua`: Custom statusline from scratch (don't have version
 control indicators - i don't had time to serach and do that -  and don't have
 lsp disgnostic information too - i don't like to have that in statusline -)
+
 ## Limitations
 There are a few "features" that you may want to know abount this configuartion
 * Don't have automatic popup completion monu shown when you type, having to
