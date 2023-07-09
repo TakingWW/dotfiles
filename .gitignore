@@ -1,0 +1,14 @@
+.gsd-keyboard.settings-ported
+dconf/
+dleyna-renderer-service.conf
+evolution/
+gtk-2.0/
+gtk-3.0/
+menus/
+mess/
+mimeapps.list
+nitrogen/
+pulse/
+user-dirs.dirs
+user-dirs.locale
+qtile/__pycahe*
