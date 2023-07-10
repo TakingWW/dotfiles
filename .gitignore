@@ -11,4 +11,4 @@ nitrogen/
 pulse/
 user-dirs.dirs
 user-dirs.locale
-qtile/__pycahe*
+qtile/__pycache__/

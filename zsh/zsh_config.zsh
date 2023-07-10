@@ -5,7 +5,6 @@ precmd() { vcs_info }
 zstyle ':vcs_info:git:*' formats '%F{blue}(%F{red}%b%F{blue}) '
 
 setopt PROMPT_SUBST
-PROMPT='%F{white}[%F{green}@%F{blue}%c%F{white}] ${vcs_info_msg_0_}%F{red}»%f '
-
+PROMPT='%F{white}%B[%F{green}@%b%F{blue}%c%F{white}%B] ${vcs_info_msg_0_}%b%F{red}»%f '
 alias ls='ls --color=tty'
 

@@ -5,7 +5,7 @@ local lang = {
 	},
 	['c'] = { 
 		['lsp-server'] = {'clangd'},
-		['root'] = {'Makefile'},
+		['root'] = {'build.sh'},
 	}
 }
 for k, v in pairs(lang) do

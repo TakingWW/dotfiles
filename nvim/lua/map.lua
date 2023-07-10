@@ -1,23 +1,14 @@
 vim.keymap.set('i', 'jk', '<Esc>', { noremap = true, silent = true })
 vim.keymap.set('n', 'x', 'V', { noremap = true, silent = true })
 vim.keymap.set('n', '<Space>s', ':silent lgrep<Space>', { noremap = true })
-vim.keymap.set('n', '<Space>q', ':lopen<CR>', {noremap = true, silent = true})
+vim.keymap.set('n', '<Space>m', ':lopen<CR>', {noremap = true, silent = true})
 vim.keymap.set('n', '<Space>e', ':Vex<CR>', {noremap = true, silent = true})
 vim.keymap.set('n', '<Space>b', ':b<Space>', {noremap = true})
 vim.keymap.set('n', '<Space>f', ':e<Space>**/', {noremap = true})
 vim.keymap.set('n', '<Space>d', ':%bd|e#|bd#<CR>', {noremap = true, silent = true})
 vim.keymap.set('n', '<Space>q', ':q<CR>', {noremap = true, silent = true})
-vim.keymap.set('n', '<Esc>', ':only<CR>', {noremap = true, silent = true})
 vim.keymap.set('v', '>', '>gv', {noremap = true, silent = true})
 vim.keymap.set('v', '<', '<gv', {noremap = true, silent = true})
-
-vim.cmd([[
-	set wildignore+=**/target/*
-	set completeopt-=preview
-	set path=.,,,$PWD/
-	set grepprg=rg\ --vimgrep\ --no-heading\ --smart-case
-	set grepformat+=%f:%l:%c:%m
-]])
 
 vim.api.nvim_create_autocmd('FileType', {
 	pattern = 'netrw',
