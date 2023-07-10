@@ -51,9 +51,9 @@ lsp disgnostic information too - i don't like to have that in statusline -)
 
 ## Limitations
 There are a few "features" that you may want to know abount this configuartion
-* Don't have automatic popup completion monu shown when you type, having to
-  press `<c-space>` (Control + Space) for it to show
-* The completion don't append parentesis at fucntion call selection
+* Do not have automatic popup completion menu shown when you type, having to
+  press `<c-space>` (Control + Space) for it
+* The completion don't append parentesis at fucntion call selection (no snippets are provided)
 * Non exiting auto pair, if you place a character that the your language
   compiler expect you to place the oposit of it to close, like parentesis and
   curl brackets, the editor is not going to do that for you.
