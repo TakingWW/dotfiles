@@ -26,7 +26,7 @@ to do the job (i don't work).
 * [Tmux](https://github.com/tmux/tmux/wiki) (Terminal Enhancer)
 
 # About Neovim
-I'dont have any plugin installed, its a configuration totally from scratch, but
+It does not have any plugin installed, its a configuration totally from scratch, but
 it have enough functionality and the UI is pretty as well (you just have to
 find out how to customize for your likings)
 
