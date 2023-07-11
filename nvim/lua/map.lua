@@ -9,6 +9,9 @@ vim.keymap.set('n', '<Space>d', ':%bd|e#|bd#<CR>', {noremap = true, silent = tru
 vim.keymap.set('n', '<Space>q', ':q<CR>', {noremap = true, silent = true})
 vim.keymap.set('v', '>', '>gv', {noremap = true, silent = true})
 vim.keymap.set('v', '<', '<gv', {noremap = true, silent = true})
+vim.keymap.set('v', 'x', 'V', { noremap = true, silent = true })
+vim.keymap.set("n", '[<Space>', function() return "<cmd>set paste<CR>m`" .. vim.v.count .. "O<Esc>``:set nopaste<CR>" end, {expr = true})
+vim.keymap.set("n", ']<Space>', function() return "<cmd>set paste<CR>m`" .. vim.v.count .. "o<Esc>``:set nopaste<CR>" end, {expr = true})
 
 vim.api.nvim_create_autocmd('FileType', {
 	pattern = 'netrw',
