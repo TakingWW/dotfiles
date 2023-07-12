@@ -1,17 +1,18 @@
-vim.keymap.set('i', 'jk', '<Esc>', { noremap = true, silent = true })
-vim.keymap.set('n', 'x', 'V', { noremap = true, silent = true })
-vim.keymap.set('n', '<Space>s', ':silent lgrep<Space>', { noremap = true })
+vim.keymap.set('i', 'jk', '<Esc>', {noremap = true, silent = true})
+vim.keymap.set('n', 'x', 'V', {noremap = true, silent = true})
+vim.keymap.set('n', '<Space>s', ':silent lgrep<Space>', {noremap = true})
 vim.keymap.set('n', '<Space>m', ':lopen<CR>', {noremap = true, silent = true})
 vim.keymap.set('n', '<Space>e', ':Vex<CR>', {noremap = true, silent = true})
 vim.keymap.set('n', '<Space>b', ':b<Space>', {noremap = true})
 vim.keymap.set('n', '<Space>f', ':e<Space>**/', {noremap = true})
 vim.keymap.set('n', '<Space>d', ':%bd|e#|bd#<CR>', {noremap = true, silent = true})
-vim.keymap.set('n', '<Space>q', ':q<CR>', {noremap = true, silent = true})
+vim.keymap.set('n', '<Space>q', ':bd!<CR>', {noremap = true, silent = true})
 vim.keymap.set('v', '>', '>gv', {noremap = true, silent = true})
 vim.keymap.set('v', '<', '<gv', {noremap = true, silent = true})
-vim.keymap.set('v', 'x', 'V', { noremap = true, silent = true })
+vim.keymap.set('v', 'x', 'V', {noremap = true, silent = true })
 vim.keymap.set("n", '[<Space>', function() return "<cmd>set paste<CR>m`" .. vim.v.count .. "O<Esc>``:set nopaste<CR>" end, {expr = true})
 vim.keymap.set("n", ']<Space>', function() return "<cmd>set paste<CR>m`" .. vim.v.count .. "o<Esc>``:set nopaste<CR>" end, {expr = true})
+vim.keymap.set("t", 'jk', "<C-\\><C-n>", { noremap = true, silent = true })
 
 vim.api.nvim_create_autocmd('FileType', {
 	pattern = 'netrw',

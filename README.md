@@ -23,7 +23,6 @@ to do the job (i don't work).
 * [Neovim](https://neovim.io/) (Text Editor)
 * [Z shell](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) (Shell)
 * [Git](https://git-scm.com/) (Version Control)
-* [Tmux](https://github.com/tmux/tmux/wiki) (Terminal Enhancer)
 
 # About Neovim
 It does not have any plugin installed, its a configuration totally from scratch, but
@@ -71,10 +70,6 @@ zsh
 
 `zsh/zsh_config.zsh` define my personal export to PATH (caution) and my
 therminal pompt with custom colors and version control branch
-
-# About Tmux
-`tmux/tmux.conf`: Redefine the send-prefix bind to `C-s` and customize the
-statusline
 
 # About Qtile
 `qtile/config.py`: Contains the qtile's example configuration and some custom

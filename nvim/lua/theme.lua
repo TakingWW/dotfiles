@@ -22,7 +22,7 @@ M.c = {
 	base0E = "#FFB454",
 	base0F = "#CBA6F7",
 }
-vim.api.nvim_set_hl(0, "Normal", { fg = "#FFFFFF", bg = M.c.base00})
+vim.api.nvim_set_hl(0, "Normal", { fg = "#FFFFFF", bg = nil})
 vim.api.nvim_set_hl(0, "Bold", { fg = nil, bg = nil})
 vim.api.nvim_set_hl(0, "Debug", { fg = M.c.base08, bg = nil})
 vim.api.nvim_set_hl(0, "Directory", { fg = M.c.base0D, bg = nil})

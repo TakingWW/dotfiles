@@ -8,6 +8,7 @@ vim.opt.tabstop = 4
 vim.opt.termguicolors = true
 vim.opt.showmode = false
 vim.opt.wrap = false
+vim.opt.splitbelow = true
 vim.opt.wildignorecase = true
 vim.g.netrw_banner = 0
 vim.g.netrw_keepdir = 0
