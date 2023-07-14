@@ -6,6 +6,10 @@ local lang = {
 	['c'] = { 
 		['lsp-server'] = {'clangd'},
 		['root'] = {'build.sh'},
+	},
+	['cpp'] = { 
+		['lsp-server'] = {'clangd'},
+		['root'] = {'build.sh'},
 	}
 }
 for k, v in pairs(lang) do
@@ -25,15 +29,6 @@ for k, v in pairs(lang) do
 		end
 	})
 end
-vim.api.nvim_create_autocmd('LspAttach', {
-  callback = function(args)
-    vim.keymap.set('n', 'K', vim.lsp.buf.hover, { buffer = args.buf })
-    vim.keymap.set('n', '<Space>a', vim.lsp.buf.code_action, { buffer = args.buf })
-    vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { buffer = args.buf })
-	vim.keymap.set('i', '<c-space>', vim.lsp.omnifunc, { buffer = args.buf})
-	vim.keymap.set('n', '=', vim.lsp.buf.format, { buffer = args.buf})
-  end,
-})
 
 vim.api.nvim_create_autocmd('DiagnosticChanged', {
 	callback = function(args)

@@ -1,5 +1,4 @@
 require("config")
 require("theme")
 require("map")
-require("statusline")
 require("lsp")

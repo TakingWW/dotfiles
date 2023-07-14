@@ -1,28 +1,12 @@
-local M = {}
+local M = require("themes/catppuccin")
 
-vim.api.nvim_set_hl(0, "inserte", { bg = "#D0F5BE"})
-vim.api.nvim_set_hl(0, "normale", { bg = "#F1D4E5"})
-vim.api.nvim_set_hl(0, "visuale", { bg = "#E57C23"})
-vim.cmd("set guicursor=n:block-normale,i:block-inserte,v:block-visuale")
-M.c = {
-	base00 = "#0B0E14",
-	base01 = "#1c1f25",
-	base02 = "#24272d",
-	base03 = "#2b2e34",
-	base04 = "#33363c",
-	base05 = "#c9c7be",
-	base06 = "#E6E1CF",
-	base07 = "#D9D7CE",
-	base08 = "#c9c7be",
-	base09 = "#FFEE99",
-	base0A = "#56c3f9",
-	base0B = "#AAD84C",
-	base0C = "#FFB454",
-	base0D = "#F07174",
-	base0E = "#FFB454",
-	base0F = "#CBA6F7",
-}
-vim.api.nvim_set_hl(0, "Normal", { fg = "#FFFFFF", bg = nil})
+vim.api.nvim_set_hl(0, "INSERTMODE", { fg = M.c.base02, bg = M.c.insert })
+vim.api.nvim_set_hl(0, "NORMALMODE", { fg = M.c.base02, bg = M.c.normal })
+vim.api.nvim_set_hl(0, "VISUALMODE", { fg = M.c.base02, bg = M.c.visual })
+vim.api.nvim_set_hl(0, "FILENAME", { fg = M.c.base07, bg = M.c.base02 })
+vim.cmd("set guicursor=n:block-NORMALMODE,i:block-INSERTMODE,v:block-VISUALMODE")
+
+vim.api.nvim_set_hl(0, "Normal", { fg = M.c.base09, bg = nil})
 vim.api.nvim_set_hl(0, "Bold", { fg = nil, bg = nil})
 vim.api.nvim_set_hl(0, "Debug", { fg = M.c.base08, bg = nil})
 vim.api.nvim_set_hl(0, "Directory", { fg = M.c.base0D, bg = nil})
@@ -63,8 +47,8 @@ vim.api.nvim_set_hl(0, "CursorLineNr", { fg = M.c.base04, bg = M.c.base01})
 vim.api.nvim_set_hl(0, "QuickFixLine", { fg = nil, bg = M.c.base01})
 vim.api.nvim_set_hl(0, "PMenu", { fg = M.c.base05, bg = M.c.base01})
 vim.api.nvim_set_hl(0, "PMenuSel", { fg = M.c.base01, bg = M.c.base05})
-vim.api.nvim_set_hl(0, "PMenuKindSel", { fg = "#862B0D", bg = M.c.base05})
-vim.api.nvim_set_hl(0, "PMenuKind", { fg = "#EF6262", bg = M.c.base01})
+vim.api.nvim_set_hl(0, "PMenuKindSel", { fg = M.c.base07, bg = M.c.base05})
+vim.api.nvim_set_hl(0, "PMenuKind", { fg = M.c.base06, bg = M.c.base01})
 vim.api.nvim_set_hl(0, "PMenuExtra", { fg = M.c.base05, bg = M.c.base01})
 vim.api.nvim_set_hl(0, "PMenuExtraSel", { fg = M.c.base01, bg = M.c.base05})
 vim.api.nvim_set_hl(0, "TabLine", { fg = M.c.base03, bg = M.c.base01})
@@ -101,3 +85,5 @@ vim.api.nvim_set_hl(0, "Typedef", { fg = M.c.base0A, bg = nil})
 vim.api.nvim_set_hl(0, "Search", { fg = base01, bg = base0A})
 vim.api.nvim_set_hl(0, "Substitute", { fg = base01, bg = base0A})
 vim.api.nvim_set_hl(0, "Todo", { fg = base0A, bg = base01})
+
+require("statusline")

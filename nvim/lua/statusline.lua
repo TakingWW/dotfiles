@@ -1,8 +1,3 @@
-local background = "#24272d"
-vim.api.nvim_set_hl(0, "INSERTMODE", { fg = "#D0F5BE", bg = background })
-vim.api.nvim_set_hl(0, "NORMALMODE", { fg = "#4A55A2", bg = background })
-vim.api.nvim_set_hl(0, "VISUALMODE", { fg = "#E57C23", bg = background })
-vim.api.nvim_set_hl(0, "FILENAME", { fg = "#E7CEA6", bg = background })
 
 local modes = {
 	["n"] = "NORMAL",
@@ -51,12 +46,9 @@ local highlight = {
 
 local function mode()
 	local current_mode = vim.api.nvim_get_mode().mode
-	return string.format(" %s ", modes[current_mode]):upper()
-end
-
-local function update_mode_colors()
-	local current_mode = vim.api.nvim_get_mode().mode
-	return string.format("%s%s%s", "%#", highlight[current_mode], "#")
+	local mode_color = string.format("%s%s%s", "%#", highlight[current_mode], "#")
+	local mode = string.format("%s", modes[current_mode]):upper()
+	return string.format("%s %s ", mode_color, mode)
 end
 
 local function modified()
@@ -70,30 +62,46 @@ local function modified()
 end
 
 local function filename()
+	local current_mode = vim.api.nvim_get_mode().mode
+	local mode_len = string.len(string.format(" %s ", modes[current_mode]))
+	local line = ""
+
+	if vim.bo.filetype ~= "alpha" then
+		line = " %l:%c "
+	end
+
+	local window_width = vim.api.nvim_win_get_width(0)
+	local subtraction = window_width % 2
+	local position = (window_width - subtraction) / 2
 	local fname = vim.fn.expand "%:t"
+
 	if fname == "" then
 		return ""
 	end
+	local s = ""
 
-	return string.format(" %s%s%s%s","%#Normal# ", "%#FILENAME# ", fname, " %#NORMAL#")
+	local size = (window_width - mode_len - string.len(line) - 1) / 2 - ( string.len(fname) / 2 )
+	for i = 1, size do
+		s = string.format("%s%s", s, " ")
+	end
+
+	return string.format("%s%s%s%s%s","%#StatusLine#", s, "%#FILENAME# ", fname, " %#StatusLine#")
 end
 
 local function lineinfo()
 	if vim.bo.filetype == "alpha" then
 		return ""
 	end
-	return " %l:%c "
+	return "%= %#NORMALMODE# %l:%c "
 end
 
 Statusline = {}
 
 Statusline.active = function()
 	return table.concat {
-		update_mode_colors(),
 		mode(),
 		filename(),
 		modified(),
-		"%=%#StatusLine#",
 		lineinfo(),
 }
 end
