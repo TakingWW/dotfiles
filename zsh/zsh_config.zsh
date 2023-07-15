@@ -1,4 +1,5 @@
 export PATH="$PATH:$HOME/.cargo/bin/:$HOME/.local/bin"
+source $HOME/.local/vulkan/setup-env.sh
 
 autoload -Uz vcs_info
 precmd() { vcs_info }

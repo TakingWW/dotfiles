@@ -5,11 +5,15 @@ local lang = {
 	},
 	['c'] = { 
 		['lsp-server'] = {'clangd'},
-		['root'] = {'build.sh'},
+		['root'] = {'Makefile'},
 	},
 	['cpp'] = { 
 		['lsp-server'] = {'clangd'},
-		['root'] = {'build.sh'},
+		['root'] = {'Makefile'},
+	},
+	['python'] = { 
+		['lsp-server'] = {'pyright'},
+		['root'] = {'setup.py'},
 	}
 }
 for k, v in pairs(lang) do
