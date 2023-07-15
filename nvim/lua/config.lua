@@ -10,6 +10,8 @@ vim.opt.showmode = false
 vim.opt.wrap = false
 vim.opt.splitbelow = true
 vim.opt.wildignorecase = true
+vim.opt.foldcolumn = '2'
+
 vim.g.netrw_banner = 0
 vim.g.netrw_keepdir = 0
 vim.g.netrw_winsize = 20
@@ -22,4 +24,5 @@ vim.cmd([[
 	set path=.,,,$PWD/
 	set grepprg=rg\ --vimgrep\ --no-heading\ --smart-case
 	set grepformat+=%f:%l:%c:%m
+	set clipboard+=unnamedplus
 ]])

@@ -17,9 +17,9 @@ M.c = {
 	base0E = "#cba6f7", -- Struct +
 	base0F = "#CBA6F7", -- Delimenter +
 
-	insert = "#D0F5BE", -- Insert mode cursor 
-	normal = "#1D4E5E", -- Normal mode cursor
-	visual = "#E57C23", -- visual mode cursor
+	insert = "#D0F5BE", -- Insert mode cursor // Statusline indicator
+	normal = "#1D4E5E", -- Normal mode cursor // Statusline indicator
+	visual = "#E57C23", -- visual mode cursor // Statusline indicator
 }
 
 return M

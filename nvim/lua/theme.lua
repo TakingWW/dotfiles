@@ -1,10 +1,10 @@
-local M = require("themes/catppuccin")
+local M = require("themes/catppuccin") -- The selected theme
 
 vim.api.nvim_set_hl(0, "INSERTMODE", { fg = M.c.base02, bg = M.c.insert })
 vim.api.nvim_set_hl(0, "NORMALMODE", { fg = M.c.base02, bg = M.c.normal })
 vim.api.nvim_set_hl(0, "VISUALMODE", { fg = M.c.base02, bg = M.c.visual })
 vim.api.nvim_set_hl(0, "FILENAME", { fg = M.c.base07, bg = M.c.base02 })
-vim.cmd("set guicursor=n:block-NORMALMODE,i:block-INSERTMODE,v:block-VISUALMODE")
+vim.cmd("set guicursor=n:block-NORMALMODE,i:block-INSERTMODE,v:block-VISUALMODE") -- Cursor style
 
 vim.api.nvim_set_hl(0, "Normal", { fg = M.c.base09, bg = nil})
 vim.api.nvim_set_hl(0, "Bold", { fg = nil, bg = nil})
@@ -13,7 +13,7 @@ vim.api.nvim_set_hl(0, "Directory", { fg = M.c.base0D, bg = nil})
 vim.api.nvim_set_hl(0, "Error", { fg = M.c.base08, bg = M.c.base00})
 vim.api.nvim_set_hl(0, "ErrorMsg", { fg = M.c.base08, bg = M.c.base00})
 vim.api.nvim_set_hl(0, "Exception", { fg = M.c.base08, bg = nil})
-vim.api.nvim_set_hl(0, "FoldColumn", { fg = M.c.base0C, bg = M.c.base00})
+vim.api.nvim_set_hl(0, "FoldColumn", { fg = M.c.base0C, bg = nil})
 vim.api.nvim_set_hl(0, "Folded", { fg = M.c.base03, bg = M.c.base01})
 vim.api.nvim_set_hl(0, "IncSearch", { fg = M.c.base01, bg = M.c.base09})
 vim.api.nvim_set_hl(0, "Italic", { fg = nil, bg = nil})

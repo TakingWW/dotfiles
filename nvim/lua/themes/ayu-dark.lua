@@ -1,4 +1,5 @@
 local M = {}
+
 M.c = {
 	base00 = "#0B0E14", -- Error message background
 	base01 = "#1c1f25", -- Pmenu Sel foreground
