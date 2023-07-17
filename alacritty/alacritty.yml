@@ -20,41 +20,15 @@ font:
     style: Bold Italic
   size: 16.0
 draw_bold_text_with_bright_colors: true
-# Colors (One Dark)
-colors:
-  # Default colors
-  primary:
-    background: '0x1e2127'
-    foreground: '0xabb2bf'
-
-  # Normal colors
-  normal:
-    black:   '0x1e2127'
-    red:     '0xe06c75'
-    green:   '0x98c379'
-    yellow:  '0xd19a66'
-    blue:    '0x61afef'
-    magenta: '0xc678dd'
-    cyan:    '0x56b6c2'
-    white:   '0xabb2bf'
-
-  # Bright colors
-  bright:
-    black:   '0x5c6370'
-    red:     '0xe06c75'
-    green:   '0x98c379'
-    yellow:  '0xd19a66'
-    blue:    '0x61afef'
-    magenta: '0xc678dd'
-    cyan:    '0x56b6c2'
-    white:   '0xffffff'
-  indexed_colors:
-    - { index: 16, color: '0xdc9656' }
-    - { index: 17, color: '0xa16946' }
-    - { index: 18, color: '0x282828' }
-    - { index: 19, color: '0x383838' }
-    - { index: 20, color: '0xb8b8b8' }
-    - { index: 21, color: '0xe8e8e8' }
+import:
+ - ~/.config/alacritty/themes/rose-pine_moon.yaml
+indexed_colors:
+  - { index: 16, color: '0xdc9656' }
+  - { index: 17, color: '0xa16946' }
+  - { index: 18, color: '0x282828' }
+  - { index: 19, color: '0x383838' }
+  - { index: 20, color: '0xb8b8b8' }
+  - { index: 21, color: '0xe8e8e8' }
 bell:
   animation: EaseOutExpo
   duration: 200
@@ -62,5 +36,5 @@ bell:
 
 key_bindings:
   - { key: J,        mods: Control, action: CreateNewWindow           }
-  - { key: K,        mods: Control, chars: "./build.sh\n"              }
+  - { key: K,        mods: Control, chars: "\n"              }
 

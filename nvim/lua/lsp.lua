@@ -11,10 +11,6 @@ local lang = {
 		['lsp-server'] = {'clangd'},
 		['root'] = {'Makefile'},
 	},
-	['python'] = { 
-		['lsp-server'] = {'pyright'},
-		['root'] = {'setup.py'},
-	}
 }
 for k, v in pairs(lang) do
 	vim.api.nvim_create_autocmd('FileType', {

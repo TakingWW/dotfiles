@@ -1,4 +1,3 @@
-
 local modes = {
 	["n"] = "NORMAL",
 	["no"] = "NORMAL",
@@ -85,7 +84,7 @@ local function filename()
 		s = string.format("%s%s", s, " ")
 	end
 
-	return string.format("%s%s%s%s%s","%#StatusLine#", s, "%#FILENAME# ", fname, " %#StatusLine#")
+	return string.format("%s%s%s%s","%#StatusLine#", s, fname, " %#StatusLine#")
 end
 
 local function lineinfo()
