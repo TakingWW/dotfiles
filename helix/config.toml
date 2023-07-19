@@ -1,0 +1,26 @@
+theme = "monokai_pro_octagon"
+
+[editor]
+mouse = false
+true-color = true
+color-modes = true
+gutters = ["diagnostics", "spacer", "diff"]
+
+[editor.cursor-shape]
+insert = "block"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "VISUAL"
+
+[keys.insert]
+j = { k = "normal_mode" }
+
+[keys.normal]
+X = "extend_line_above"
