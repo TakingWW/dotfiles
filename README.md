@@ -77,7 +77,7 @@ binds
 
 # About documentation
 There are no documentation around any configuration file here, but, its pretty
-simple to undertand considering you know what are the propose of the respective
+simple to understand considering you know what are the propose of the respective
 tool you are digging
 
 # Daydream
