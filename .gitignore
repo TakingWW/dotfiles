@@ -12,3 +12,4 @@ pulse/
 user-dirs.dirs
 user-dirs.locale
 qtile/__pycache__/
+helix/runtime/

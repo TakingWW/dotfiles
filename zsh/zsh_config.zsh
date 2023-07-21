@@ -1,5 +1,5 @@
 export PATH="$PATH:$HOME/.cargo/bin/:$HOME/.local/bin:$JAVA_HOME/bin:$M2_HOME/bin"
-source $HOME/.local/vulkan/setup-env.sh
+source $HOME/.local/src/vulkan/setup-env.sh
 
 autoload -Uz vcs_info
 precmd() { vcs_info }

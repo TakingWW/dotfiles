@@ -1,4 +1,4 @@
-theme = "monokai_pro_octagon"
+theme = "default"
 
 [editor]
 mouse = false
@@ -18,6 +18,9 @@ hidden = false
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
 mode.select = "VISUAL"
+left = ["mode", "spinner", "version-control"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position"]
 
 [keys.insert]
 j = { k = "normal_mode" }
