@@ -1,0 +1,2 @@
+# /usr/bin/bash
+xrandr --output HDMI-A-0 --mode 1920x1080 --rate 119.98 --pos 1920x0 --output DVI-D-0 --mode 1920x1080 --rate 60.00 --pos 0x0

@@ -1,0 +1,17 @@
+input=".cpp"
+len=${#input}
+
+array=(`find . -name '*'${input}`)
+
+# for i in "${array[*]}"; do
+#     file="${i:2:-$len}"
+#     g++ -g -std=c++20 "${i}" -o "${file}.o"
+# done
+
+files=""
+for i in "${array[*]}"; do
+    files+="$i "
+done
+
+g++ -g -std=c++20 ${files} -o testando.o
+

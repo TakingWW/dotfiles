@@ -1,10 +1,11 @@
-theme = "default"
+theme = "base16_default"
 
 [editor]
 mouse = false
 true-color = true
 color-modes = true
 gutters = ["diagnostics", "spacer", "diff"]
+auto-completion = false
 
 [editor.cursor-shape]
 insert = "block"
@@ -20,10 +21,11 @@ mode.insert = "INSERT"
 mode.select = "VISUAL"
 left = ["mode", "spinner", "version-control"]
 center = ["file-name"]
-right = ["diagnostics", "selections", "position"]
+right = ["diagnostics", "position"]
 
 [keys.insert]
 j = { k = "normal_mode" }
+C-space = "completion"
 
 [keys.normal]
 X = "extend_line_above"

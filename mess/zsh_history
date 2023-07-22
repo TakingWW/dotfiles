@@ -1,0 +1,1350 @@
+: 1685999938:0;lsadkfj
+: 1686000074:0;echo $HISTFILE
+: 1686000080:0;rm -rf .zsh_history
+: 1686000856:0;go hlep
+: 1686000860:0;go help
+: 1686001044:0;go run hello.go
+: 1686001146:0;go run
+: 1686001626:0;go mod init example.com/hello
+: 1686001648:0;touch hello.go
+: 1686002037:0;go mod tidy
+: 1686001171:0;go run .
+: 1686001298:0;rm -rf hello
+: 1686001314:0;rm -rf go.mod
+: 1686001321:0;mkdir greetings
+: 1686001323:0;greetings
+: 1686001327:0;go mod init example.com/greetings
+: 1686001340:0;touch greetings.go
+: 1686001342:256;vim greetings.go
+: 1686001939:0;go mod edit -replace example.com/greetings=../greetings
+: 1686000084:0;askldjf
+: 1686000115:0;rm -rf python
+: 1686000172:0;mkdir go
+: 1686000176:0;cd go
+: 1686000182:0;mkdir hello
+: 1686000243:0;go mod init example/hello
+: 1686000251:7;vim go.mod
+: 1686000283:12;vim hello.go
+: 1686000510:0;cargo new hello
+: 1686000519:38;vim main.rs
+: 1686000760:0;documents/go
+: 1686000762:0;cd hello
+: 1686032724:0;git clone -b development
+: 1686032726:1;git clone -b development https://github.com/TakingWW/chess-game.git
+: 1686032760:1;yay -S java
+: 1686032771:215;yay -S jdk
+: 1686032997:0;echo $JAVA_HOME
+: 1686033015:0;which jre
+: 1686033292:701;tmux
+: 1686091752:321;emacs chess-game
+: 1686092926:1739;emacs ~/.config
+: 1686099545:4;yay -S btop
+: 1686099556:1;yay -Rs htop
+: 1686101697:0;ps aux | grep emacsd
+: 1686101699:0;ps aux | grep emacs
+: 1686101710:0;kill -9 5972
+: 1686102635:0;start
+: 1686149061:7;yay -S kitty
+: 1686149173:0;lsakdjfsakldfj
+: 1686149195:3;yay -Rs alacritty
+: 1686149176:0;aasdfklajsdflkasjdf lkasjdkljf saldkj fklsdjf ls
+: 1686149218:0;lals
+: 1686156884:0;rm -rf ~/go
+: 1686156893:3;sudo rm -rf go
+: 1686156910:0;rm -rf go
+: 1686156925:1;yay -Rs go
+: 1686156929:0;which go
+: 1686156933:0;which o
+: 1686157118:0;yay -Ryyuu
+: 1686150483:7;vim config.el
+: 1686150510:17;vim init.el
+: 1686150658:0;git --config global user.name "TakindWW"
+: 1686150672:0;git config --global user.name "TakindWW"
+: 1686150680:0;git config --global user.email "TakindWW"
+: 1686150694:0;git config --global user.email "jub_camara@hotmail.com"
+: 1686150890:0;source .szhrc
+: 1686150906:0;ehco $MY_GIT_TOKEN
+: 1686150914:0;echo #MYG_TI_TOKEN 
+: 1686150922:0;echo $MY_GIT_TOKEN
+: 1686150934:0;git config --global url."https://api:$MY_GIT_TOKEN@github.com/".insteadOf "https://github.com/"
+: 1686150939:0;git config --global url."https://ssh:$MY_GIT_TOKEN@github.com/".insteadOf "ssh://git@github.com/"
+: 1686150968:0;git config --global url."https://git:$MY_GIT_TOKEN@github.com/".insteadOf "git@github.com:"
+: 1686157358:1994;e
+: 1686170255:0;kitty +list-fonts --psnames | grep JetBrains
+: 1686170262:1;kitty +list-fonts --psnames | grep JetBrainsMono
+: 1686170350:0;git config --global user.email "jub_camara@hotmail.com\
+ls
+: 1686170364:0;git config --global user.email "jub_camara@hotmail.com"\
+
+: 1686170367:0;git stastus
+: 1686170374:0;git statsu
+: 1686177183:0;cd rust_tutorial
+: 1686170947:0;cd documents/rust/rust_tutorial
+: 1686171528:0;cargo fix --bin "rust_tutorial"
+: 1686171538:0;cargo fix --bin "rust_tutorial" --alow-dirty
+: 1686171572:0;cargo fix --bin --allow-dirty "rust_tutorial"
+: 1686171600:0;cargo fix --bin "rust_tutorial" --allow-dirty
+: 1686172046:1;cargo run contants.rs
+: 1686172079:0;mv contants.rs main.rs
+: 1686172262:0;mv main.rs constant.rs
+: 1686193970:0;./main.h
+: 1686194035:0;gcc -o main.h testando.c
+: 1686194039:0;touch makefile
+: 1686194075:0;neofetgch
+: 1686193797:0;mkdir c
+: 1686193797:0;cd c
+: 1686193779:0;f
+: 1686269937:0;le
+: 1686269944:0;cd documents/c
+: 1686245461:0;documents/c/
+: 1686264264:4;git clone https://github.com/protesilaos/dotfiles.git
+: 1686264271:0;lks
+: 1686264274:0;cd dotfiles
+: 1686264278:0;cd emacs/.emacs.d
+: 1686266131:0;eamcs
+: 1686266139:0;ls Downloads
+: 1686266147:0;rm -rf Downloads/
+: 1686266167:0;rm -rf 'Área de trabalho\
+ls
+: 1686266189:0;rmdir 'Área de trabalho/'
+: 1686267677:0;celar
+: 1686267679:0;emacs.
+: 1686275297:0;shutdown
+: 1686275302:0;shutdown -c
+: 1686292554:13;yay -S maven
+: 1686292578:0;mvn
+: 1686292581:0;which menv
+: 1686292595:6;mvn exec:java
+: 1686292630:0;cat pom.xml
+: 1686292756:0;cd .settings
+: 1686294240:0;tmux a
+: 1686294294:0;cd .config/messs
+: 1686294305:0;touch emacs.sh
+: 1686294327:0;echo "emacs" > emacs.sh
+: 1686294331:0;cat emacs.sh
+: 1686294352:36;vim config.py
+: 1686300329:9;rm -rf .spacemacs *
+: 1686300349:0;rm -rf .spacemacs
+: 1686300355:0;rm -rf .spacemacs.env
+: 1686300365:0;mv emacs emacs.bk
+: 1686300379:0;mv emacs.old emacs
+: 1686300385:1;rm -rf emacs.bk
+: 1686296521:2;java -cp target/classes/ com.joao.Main
+: 1686296738:88;emacs .
+: 1686296837:0;mv emacs emacs.old
+: 1686296901:0;git clone https://github.com/syl20bnr/spacemacs /.config/emacs/
+: 1686296915:5;git clone https://github.com/syl20bnr/spacemacs $HOME/.config/emacs/
+: 1686301610:0;freer -h
+: 1686302625:29;lvim
+: 1686302674:0;ln -s lvim vim
+: 1686355327:0;rm -rf DANFE*
+: 1686355338:0;shutdown nw
+: 1686377750:0;rm -rf Área\ de\ trabalho
+: 1686377774:0;rm -rf .gnome
+: 1686379777:57;vim testing
+: 1686379838:0;cd testing
+: 1686378183:1;mvn cler
+: 1686379473:1;mvn comple
+: 1686382199:0;free -m
+: 1686378283:7;vim ~/.local/share/lunarvim/lvim/utils/installer/config.example.lua
+: 1686378321:0;lvim --headless +'lua require("lvim.utils").generate_settings()' +qa && sort -o lv-settings.lua{,}
+: 1686378328:292;vim lv-settings.lua
+: 1686378871:0;mvn --version
+: 1686380008:1;mvn tedst
+: 1686401052:0;cd documents/java/chess-game/
+: 1686416346:0;mv build run
+: 1686416718:0;free --h
+: 1686416720:0;free h
+: 1686401078:0;cd lvim
+: 1686408954:0;touch build
+: 1686409030:0;chmod +x build
+: 1686409118:0;touch buildkk\
+nagelina joeli\
+j
+: 1686409129:0;rm -rf buildkk
+: 1686411321:0;.config/neofetch
+: 1686411357:0;neoftdch
+: 1686411736:0;neofeth
+: 1686411750:0;neoftch
+: 1686411761:0;noeftch
+: 1686411781:0;nofethc
+: 1686411860:0;nfoetch
+: 1686411882:5;vim config.conf
+: 1686411904:0;noefthc
+: 1686414639:0;neofthc
+: 1686414644:0;neofetghc
+: 1686414645:0;noeftgch
+: 1686414666:0;neofoethc
+: 1686414668:0;neofhc
+: 1686415747:0;cd documents/java/chess-game
+: 1686415758:0;./buidl
+: 1686415763:64;./build
+: 1686417380:0;mv c cpp
+: 1686417396:0;mkdir hellocpp
+: 1686417397:0;cd ch
+: 1686417404:0;touch main.cpp
+: 1686417987:0;chmod +x run
+: 1686418000:2;vim ru
+: 1686418217:0;g++ main.cpp -std=c++20 -o main.o
+: 1686418236:0;g++
+: 1686418242:0;g++ main
+: 1686418248:0;g++ main.cpp
+: 1686418254:0;g++ main.cpp main.o
+: 1686418263:0;g++ main.cpp -o main.o
+: 1686418340:0;g++ -nostartfiles -g main.cpp -o main.o
+: 1686418406:4;vim build
+: 1686420282:1;cp ./run ~/.local/bin
+: 1686420301:0;mv run build
+: 1686420334:0;mv build ~/.config/mess
+: 1686420379:11;vim ~/.local/bin/run
+: 1686420406:0;cp ~/.local/bin/run
+: 1686420409:0;cp ~/.local/bin/run .
+: 1686420593:0;./rn
+: 1686420626:0;touch testando.cpp
+: 1686420845:0;g++ --versoin
+: 1686420848:0;g+ --version
+: 1686420852:0;g++ --version
+: 1686420865:0;c++ --version
+: 1686420942:0;rm -rf testando.cpp
+: 1686420997:0;cp hellocpp ~/.config/mess/cppTemplate
+: 1686421004:0;cp -r hellocpp ~/.config/mess/cppTemplate
+: 1686421012:0;ls ~/.config/mess
+: 1686421091:0;which g++
+: 1686422214:0;mkdir shell
+: 1686422219:0;touch testando.sh
+: 1686425444:0;cp testando.sh uptime.sh
+: 1686444381:0;cd cpp/hellocpp
+: 1686444388:1;vim ruj
+: 1686444411:0;rm -rf testando.o
+: 1686445797:0;./main.o
+: 1686449205:0;mvn pack
+: 1686449210:0;mvn teste
+: 1686449211:3;mvn test
+: 1686449245:4;mvn package
+: 1686449263:0;ls target
+: 1686449298:0;mv -p target/cmd-1.0-SNAPSHOT.jar ~/documents/testando
+: 1686449303:0;mv -r target/cmd-1.0-SNAPSHOT.jar ~/documents/testando
+: 1686449313:0;mv target/cmd-1.0-SNAPSHOT.jar ~/documents/
+: 1686450161:1;mvn compile
+: 1686450166:0;java -cp target/classes com.joao.CheckSum
+: 1686450611:1;javac -cp picocli-4.6.1.jar -d target/classes ./src/main/java/com/joao/CheckSum.java
+: 1686449343:0;mv cmd-1.0-SNAPSHOT.jar testando
+: 1686449357:0;echo "hello" > hello.txt
+: 1686449615:0;jar -tf cmd-1.0-SNAPSHOT.jar
+: 1686449677:0;java -cp "cmd-1.0-SNAPSHOT.jar" CheckSum --algorithm SHA-1 hello.txt
+: 1686449748:0;java -cp "cmd-1.0-SNAPSHOT.jar:checksum.java" CheckSum --algorithm SHA-1 hello.txt
+: 1686449761:0;java -cp "cmd-1.0-SNAPSHOT.jar:checksum.jar CheckSum --algorithm SHA-1 hello.txt
+: 1686449767:0;java -cp "cmd-1.0-SNAPSHOT.jar:checksum.jar" CheckSum --algorithm SHA-1 hello.txt
+: 1686449881:0;java -cp "picocli-4.7.4:cmd-1.0-SNAPSHOT.jar" CheckSum --algorith SHA-1 hello.txt
+: 1686449910:0;java -cp "cmd-1.0-SNAPSHOT.jar" com.joao.CheckSum --algorithm SHA-1 hello.txt
+: 1686449932:0;cd java/cmd
+: 1686451013:0;rm -rf cmd
+: 1686417454:0;cd .config/lvim
+: 1686420161:0;rm -rf main.o
+: 1686422490:0;chmod +x testando.sh
+: 1686422554:0;bash testando.sh
+: 1686424987:0;./testando.sh
+: 1686425403:17175;vim testando.sh
+: 1686442585:0;cd helocpp
+: 1686444100:3507;vim main.cpp
+: 1686447622:0;rm -rf testing
+: 1686447636:23;mvn archetype:generate
+: 1686447663:0;which mvn
+: 1686447671:183;sudo vim /bin/mvn
+: 1686447861:0;cd cmcd
+: 1686447863:0;cd cmd
+: 1686454025:0;intellij-idea-communit-edition
+: 1686454056:0;yay -Q | grep inte
+: 1686454101:0;intellij-idea-community-edition 4:2023.1.2-1
+: 1686453866:2;yay -S intellij-idea-community-edtion
+: 1686453881:56;yay -S intellij-idea-community-edition
+: 1686454320:38;idea
+: 1686454267:0;intellij
+: 1686454614:0;touch ideavimrc
+: 1686455266:15;vim ideavimrc
+: 1686455286:0;rm -rf ideavimrc
+: 1686456074:0;cd shell
+: 1686456089:0;cd /home/joao/documents/java/checksum/out/artifacts/checksum_jar/checksum.jar .
+: 1686456102:0;cp /home/joao/documents/java/checksum/out/artifacts/checksum_jar/checksum.jar .
+: 1686456117:0;echo "HEllo man" > hello.txt
+: 1686456145:1;java -cp "checksum.jar" com.joao.Main hello.txt
+: 1686456181:0;echo "java -cp checksum.jar com.joao.Main" > testando.sh
+: 1686456186:0;mv testando.sh hello
+: 1686456207:12;vim hello
+: 1686456223:1;./hello hello.txt
+: 1686456316:0;time ./hello hello.txt
+: 1686460504:0;cd /home/joao/documents/java/checksum/target/
+: 1686460925:0;java -jar checksum-1.0-SNAPSHOT.jar com.joao.Main --name=joao
+: 1686461030:0;java -jar checksum-1.0-SNAPSHOT.jar --name=joao
+: 1686461400:0;"you name is joao"
+: 1686608423:0;cd documents/javal
+: 1686623171:0;y
+: 1686623376:0;touch config.toml
+: 1686623817:0;helix --helth-more
+: 1686623835:0;helix --helth | more
+: 1686623843:13;helix --health | more
+: 1686624143:7;yay -S clang
+: 1686624183:0;cd cpp
+: 1686624821:0;cd documents/cpp
+: 1686624824:0;cd hellocpp
+: 1686624904:0;cd documents/cpp/hellocpp
+: 1686624907:1456;helix main.cpp
+: 1686626366:0;helix --version
+: 1686626092:55;helix config.toml
+: 1686669329:0;git config
+: 1686669349:0;git config pull.rebase true
+: 1686669351:0;cd .git
+: 1686667441:16;helix .zshrc
+: 1686667469:0;source .zshrc
+: 1686667960:8;vim config.toml
+: 1686668243:0;documents/cpp/hellocpp
+: 1686668695:21;yay -S jdtls
+: 1686668766:0;cd ~/documents/jav
+: 1686668768:0;cd ~/documents/java
+: 1686668774:174;helix snake-game
+: 1686670973:0;stasrtx
+: 1686678793:0;tree
+: 1686678920:0;rustup compnent add rust-src
+: 1686678946:0;find . src
+: 1686679007:0;cd tmp
+: 1686679011:0;cd tol
+: 1686679071:1;rm -rf .rustup
+: 1686679074:21;curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+: 1686679181:0;ls shell
+: 1686679193:0;rm -rf shell
+: 1686679243:14;hx main.rs
+: 1686679490:1;rustup component add rust-src
+: 1686679522:0;cd hello_world/src
+: 1686680938:0;rustup compoment list
+: 1686680957:0;rustup compnent list
+: 1686680965:0;rustup component list
+: 1686681005:0;rustup component list | grep analyzer
+: 1686706569:0;exa
+: 1686706599:0;rm -rf libinditator-gtk3
+: 1686706610:5;yay -Rs libindiactor-gtk3
+: 1686706622:1;yay -Rs libindicator-gtk3
+: 1686707032:3816;hx hello_world
+: 1686717192:0;cd documents/rust/hello_world
+: 1686717331:0;cargo --version
+: 1686717452:5;hx guessing_game
+: 1686717462:0;l[s
+: 1686717466:0;cargo ruin
+: 1686717468:0;carg un
+: 1686717469:1;cargo gun
+: 1686718467:0;cargo buld
+: 1686754212:0;guessing_game
+: 1686754741:0;yay -Q | grep idea
+: 1686754758:50;yay -Rs intellij-idea-community-edition
+: 1686754827:0;yay -Q | grep jre
+: 1686754846:0;yay -Rs jre-openjdk
+: 1686754852:3;yay -Rs jre17-openjdk
+: 1686754870:0;yay -Q | grep jdk
+: 1686755030:0;yay -Rs adobe-source-code-pro-fonts
+: 1686755089:1;bash ~/.local/share/lunarvim/lvim/utils/installer/uninstall.sh
+: 1686755108:0;fd . *lunarvim*
+: 1686755125:0;fd . -name *nvim*
+: 1686755131:0;fd . --name *nvim*
+: 1686755135:0;fd . nvim
+: 1686755140:0;fd . -name nvim
+: 1686755149:0;fd . --name nvim
+: 1686755158:0;fd nvim .
+: 1686755165:0;fd nvim .config
+: 1686755172:0;fd nvim ./
+: 1686755182:0;sudo fd nvim /
+: 1686755190:0;fd nvim ~/
+: 1686755207:0;fd lunarvim .config
+: 1686755212:1;fd lvim .config
+: 1686755249:0;htop
+: 1686755255:0;rm -rf htop
+: 1686755286:3;yay -Rs npm
+: 1686755295:0;rm -rf .npm
+: 1686755313:0;rm -rf .ideavimrc
+: 1686755325:0;rm -rf .android
+: 1686755334:0;rm -rf .eclipse
+: 1686755340:0;cd .java
+: 1686755348:0;rm -rf .java
+: 1686755439:58;hx .profile
+: 1686755501:0;rm -rf .profile
+: 1686755526:0;fd * .lemminx
+: 1686755541:0;rm -rf .lemminx
+: 1686755551:0;cat .zshenv
+: 1686755557:0;rm -rf .zshenv
+: 1686755582:0;cat .zcompdump
+: 1686755600:0;cat .zshrc
+: 1686755645:18;hx .zcompdump
+: 1686755675:0;rm -rf .wget-hsts
+: 1686755683:0;fd * .gitconfig
+: 1686755701:0;cat .gitconfig
+: 1686755790:0;rm -rf JetBrains
+: 1686755852:0;cd jav
+: 1686755889:383;hx checksum
+: 1686756302:0;rm -rf disney
+: 1686756317:0;mv run runc
+: 1686756322:0;runc
+: 1686759848:0;which make
+: 1686759859:2;sudo hx /bin/make
+: 1686759872:9;sudo helix /bin/make
+: 1686760041:0;fd Main .
+: 1686760070:0;fd Main . | grep static
+: 1686760140:0;fd Main . grep static
+: 1686760153:0;fd Main . > grep static
+: 1686760303:0;fd Main . | grep -l static
+: 1686760346:0;grep -Rl ./src/main static
+: 1686760367:0;grep -Rl static ./src/main
+: 1686760391:0;grep -Rl "public static void main" ./src/main
+: 1686760412:0;grep -Rl "public static void main(String" ./src/main
+: 1686760622:0;rm -rf grep
+: 1686760648:0;mv run ~/.local/bin
+: 1686760663:0;rn
+: 1686760897:0;cd java/chess-game
+: 1686760908:0;fd *.java .
+: 1686760917:0;fd .java .
+: 1686768631:0;cd documents/rsut
+: 1686768641:0;rustc hello_world.rs
+: 1686768644:0;./hello_world
+: 1686768881:0;rustfmt hello_world.rs
+: 1686769326:0;cargo new hello_cargo
+: 1686769330:0;cd hello_cargo
+: 1686768557:0;rm -rf guessing_game
+: 1686768563:0;mkdir hello_world
+: 1686768597:0;touch hello_world.rs
+: 1686768600:882;hx hello_world.rs
+: 1686769488:0;cd ../hello_cargo
+: 1686769533:0;./target/debug/hello_cargo
+: 1686770164:0;cargo new guessing_game
+: 1686770183:0;cd documents/rust/guessing_game
+: 1686770187:0;cleawr
+: 1686782974:0;cd guessing_game
+: 1686783296:0;cargo new variable
+: 1686783606:0;lw
+: 1686784106:0;cat src/main.rc
+: 1686784212:0;cat src/main.rs
+: 1686860809:0;cargo new functions
+: 1686878511:0;argo run
+: 1686878563:0;time cargo run
+: 1686843473:0;pacman -Q | wc -l
+: 1686843479:0;neoeftch
+: 1686844126:0;cd variable
+: 1686846929:0;cd ../java
+: 1686846971:0;rm -rf .idea
+: 1686846981:0;rm -rf .settings
+: 1686846984:1;mvn clear
+: 1686847065:0;cd ~/documents/rust/variable
+: 1686860851:0;cd ../functions
+: 1686869777:0;cd debug
+: 1686869787:0;./functions
+: 1686869822:0;cd rust/functions
+: 1686877785:0;nofetch
+: 1686878000:0;cd classes
+: 1686878008:1;mvn clean
+: 1686878046:0;.run
+: 1686878106:0;cd ~/.local/bin
+: 1686878116:5;hx run
+: 1686878129:0;cd ~/documents/java/snake-game
+: 1686878142:0;chmod +x ~/.local/bin/run
+: 1686879165:0;cd ~/.config
+: 1686879179:0;nvi m.
+: 1686879522:0;cd ~/documents/rust/functions
+: 1686877879:0;cd documents/java/
+: 1686877916:0;mv ~/.local/bin/run
+: 1686877928:0;mv ~/.local/bin/run .
+: 1686879489:0;cd function
+: 1686880077:89;LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)
+: 1686880295:22;nvim .zshrc
+: 1686881202:0;cd documents/rust/functions
+: 1686882441:0;LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)]
+: 1686881349:0;functions
+: 1686881352:0;cd functions
+: 1686888446:0;shutdow now
+: 1686927327:0;cd documents/
+: 1686924148:0;cargo new slice
+: 1686924151:0;cd slice
+: 1686924633:0;cargo new struct
+: 1686924650:0;cargo new structs
+: 1686924314:0;documents/rust/slice
+: 1686924316:0;carg orun
+: 1686924660:0;cd ../structs
+: 1686928528:7;yay -S emacs
+: 1686928574:0;rm -rf .emacs.d
+: 1686928610:0;rm -rf tig-2.5.4.tar.gz
+: 1686928614:0;unzip dotfiles-master.zip
+: 1686928620:0;rm -rf dotfiles-master.zip
+: 1686928626:0;cd dotfiles-master
+: 1686928658:0;mv .emacs.d ~/.config/emacs
+: 1686928702:0;rm rf dotfiles-master
+: 1686928717:0;rm -rf dotfiles-master
+: 1686955411:0;chmod +x emacs.sh
+: 1686955417:3;./emacs.sh
+: 1686955424:3;hx emacs.sh
+: 1686929075:1;git clone https://github.com/TakingWW/emacs.git
+: 1686930368:0;emcs
+: 1686960874:0;.config/emacs
+: 1686960864:0;cd sna
+: 1686990100:0;pacman -Q | wc -llsalsls
+: 1686990350:0;joao pedrojavaijava
+: 1686993251:0;cd /home/joao/documents/java/snake-game/]
+: 1686984991:0;cd /home/joao/documents/rust/slice/
+: 1686991443:0;ls cpp
+: 1686991449:0;rm -rf cpp
+: 1686991460:0;ls downloads
+: 1686993850:1;run test
+: 1686993855:0;run compile
+: 1687018439:0;mkdir rust
+: 1687018458:0;cp ~/documents/rust/structs/* rust
+: 1687018465:0;cp -r ~/documents/rust/structs/* rust
+: 1687018528:0;cp ~/documents/rust/slice/* rust
+: 1687018533:0;cp -r ~/documents/rust/slice/* rust
+: 1687018572:0;touch create
+: 1687018862:0;chmod +x create
+: 1687018936:647;nvim create
+: 1687019687:0;mv create rs
+: 1687019706:0;mv rs cs
+: 1687014749:0;cd /home/joao/documents/rust/slice/src/
+: 1687014878:0;which r
+: 1687014887:0;which ls
+: 1687014891:0;which which
+: 1687014905:0;r --help
+: 1687014910:0;r -h
+: 1687014913:0;r -help
+: 1687017099:0;cargo run -1
+: 1687017848:0;touch run.sh
+: 1687017898:0;rm rf ./rn
+: 1687017906:0;rm -rf ./rn
+: 1687018164:0;run asdkl
+: 1687018266:0;mv run.sh rn
+: 1687018277:0;mv rn run.sh
+: 1687018319:0;build
+: 1687018336:0;run buld
+: 1687018339:0;run build
+: 1687018351:0;r aslkdfjasdf
+: 1687018986:0;rm r-f rust
+: 1687019288:0;git config --global init.defaultBranch main
+: 1687019296:0;create rust joao
+: 1687019327:0;cd ~/.config/mess
+: 1687019333:2;nvim rust
+: 1687019367:0;echo "fn mai() {\n}" > main.rs
+: 1687019381:0;echo "fn main() {\n}" > main.rs
+: 1687019383:0;cat main.rs
+: 1687019410:0;create rust slice2
+: 1687019415:0;cd slice2
+: 1687019510:0;rm -rf slice2
+: 1687019635:0;cd structs
+: 1687019645:0;create rust
+: 1687019715:0;cs
+: 1687020410:0;chmod +x ./run.sh
+: 1687019596:0;rm -rf rust
+: 1687019612:0;cp ~/documents/rust/slice/run.sh ./rust.sh
+: 1687019894:0;cargo new enum
+: 1687019949:0;cargo new enumerations
+: 1687019951:0;cd enumerations
+: 1687019958:1;run
+: 1687020392:0;source ~/.zshrc
+: 1687027318:7;yay -Rs emacs
+: 1687027436:4;git clone https://git.savannah.gnu.org/git/emacs.git -b emacs-29
+: 1687027453:28;git clone https://git.savannah.gnu.org/git/emacs.git -b master
+: 1687027533:13;git clone git://git.savannah.gnu.org/emacs.git
+: 1687027565:109;git clone git://git.savannah.gnu.org/emacs.git -b emacs-29
+: 1687027706:19;more README
+: 1687027738:84;more INSTALL
+: 1687028274:34;yay -S libXpm
+: 1687028616:0;cd downloads/emacs
+: 1687028411:3;git clone git@github.com:tree-sitter/tree-sitter.git
+: 1687028546:36;nvim INSTALL.REPO
+: 1687028623:0;cd tree-sitter
+: 1687028626:4;make
+: 1687028699:29;more INSTALL.REPO
+: 1687028742:184;make configure="--with-tree-sitter"
+: 1687029418:1;make install
+: 1687029424:12;sudo make install
+: 1687032658:0;emacs --version
+: 1687032680:0;cd lsp
+: 1687032697:0;rm -rf lsp
+: 1687033393:0;which javac
+: 1687038656:0;cd /home/joao/documents/rust/enumerations/src/
+: 1687039228:0;cargo
+: 1687042335:0;mv run run.sh
+: 1687060608:0;rm -rf tree-sitter
+: 1687060613:0;unzip FiraCode.zip
+: 1687060631:0;rm -rf FiraCode.zip
+: 1687060643:0;more readme.md
+: 1687060658:0;mkdir FiraCode
+: 1687060668:0;mv FiraCodeN* FiraCode
+: 1687060680:0;rm -rf LICENSE readme.md
+: 1687060691:0;mv FiraCode ~/.local/share/fonts
+: 1687055674:0;git rm --cache /run.sh
+: 1687055693:0;git rm --cache ./run.sh
+: 1687296808:0;cd documents/rust/enumerations
+: 1687296573:0;cd documents/rust/ls
+: 1687309470:0;update
+: 1687309482:0;time
+: 1687309489:0;date
+: 1687309505:6;hx variable
+: 1687309529:0;cargo new if_let
+: 1687309533:559;hx if_let
+: 1687310102:1139;hx enumerations
+: 1687309688:0;cd if_let
+: 1687309747:0;rm -rf run.sh
+: 1687311418:0;ps aux
+: 1687316504:0;cd /home/joao/documents/java/snake-game/
+: 1687316514:0;xs ..
+: 1687316527:0;cargo new my-project
+: 1687316529:0;cd my-project
+: 1687317001:0;rm -rf my-project
+: 1687317007:0;cargo new backyard
+: 1687317010:0;cd backyard
+: 1687317051:0;mkdir garden
+: 1687317061:0;touch garden/vegetables.rs
+: 1687317077:0;touch garden.rs
+: 1687317109:0;cd garden
+: 1687317127:0;cd rust/backyard
+: 1687317281:0;cs rsut
+: 1687382289:0;java --versoin
+: 1687382307:1;free -h
+: 1687382342:0;kitty +list-fonts --psnames | grep Fira
+: 1687382541:0;cd ~/.local/share
+: 1687382559:0;FiraCode
+: 1687382581:0;ls | grep FiraCode
+: 1687382590:0;rm -rf FiraCode
+: 1687382643:0;cd ~/.config/emacs
+: 1687383081:0;touch README.org
+: 1687383254:0;rm -rf README.md
+: 1687383444:27;emacs README.org
+: 1687465392:2;rm -rf rust/*
+: 1687465422:0;rm -rf checksum
+: 1687465430:0;cd ~/documents/downloads
+: 1687465435:0;lkjasdflkasjdflaksdjflskdajfasldkjfaslkdjfalskdjfalskdjfasdf
+: 1687465762:0;mkdir themes
+: 1687465776:1;touch custom-theme.toml
+: 1687465781:348;hx custom-theme.toml
+: 1687468874:5111;hx themes/custom-theme.toml
+: 1687467261:0;themes
+: 1687539433:0;cd .config/mess
+: 1687539451:53;hx rust.sh
+: 1687539397:0;ls ~/.local/bin
+: 1687539413:0;copy_script.sh rust
+: 1687539335:6884;hx testando
+: 1687659308:0;claar
+: 1687659317:0;documents/download
+: 1687659329:0;cd .config/emacs
+: 1687659393:0;emacs
+: 1687659355:0;make uninstall
+: 1687659363:3;sudo make uninstall
+: 1687659384:0;rm -rf emacs
+: 1687666645:54;hx plugins.lua
+: 1687666707:6;hx init.lua
+: 1687667656:3;nvim .
+: 1687667667:41;nvim nvim
+: 1687667916:5;nvim .gitignore
+: 1687668245:0;git push -help
+: 1687668579:0;git
+: 1687668611:0;git push --set-upstream custom v2.0
+: 1687668628:0;git commit
+: 1687668775:0;rm -rf .git .github
+: 1687668829:48;nvim README.md
+: 1687668932:0;ln -s nvim vim
+: 1687669911:606;vim snake-game
+: 1687674590:0;documents/java/snake-game
+: 1687674594:0;im
+: 1687674110:0;tr
+: 1687682275:0;touch testando.c
+: 1687682278:0;touch cagando.c
+: 1687682325:8;vim testando.c
+: 1687682364:108;vim cagando.c
+: 1687682479:0;mkdir disney
+: 1687682480:0;cd disney
+: 1687682487:0;touch rodolfo.c
+: 1687682489:24;vim rodolfo.c
+: 1687682522:0;mkdir svana
+: 1687682525:0;cd svana
+: 1687682529:0;touch jao.c
+: 1687682532:16;vim jao.c
+: 1687680777:0;cd documents/java/snake-game
+: 1687662784:0;startsx
+: 1687710453:0;cd target/classes/com/joao/game_function/ls
+: 1687710456:0;cd target/classes/com/joao/game_function/
+: 1687710469:0;cd ../..
+: 1687712006:0;rm -rf rust/cagando.c rust/disney rust/svana rust/testando.c
+: 1687710357:0;documents/java/chess-game
+: 1687710397:0;cp run.sh ~/.config/mess/java.sh
+: 1687710401:0;cd chess-game
+: 1687710408:0;cs java
+: 1687711834:0;ffmpeg cd
+: 1687712208:0;cd rust/testando
+: 1687709705:0;startdcx
+: 1687709706:0;startcx
+: 1687739759:0;cd lua/custom
+: 1687739764:83;hx mappings.lua
+: 1687741413:0;cd ../../java/snake-game
+: 1687738985:0;documents/java
+: 1687738998:35;vim testando
+: 1687741404:0;cd java/snake-game
+: 1687779406:0;fd
+: 1687779412:0;fd -h
+: 1687779466:2;sudo fd java /
+: 1687779496:1;sudo fd *.java /
+: 1687779610:0;sudo fd .java /
+: 1687814069:0;cd documents/java
+: 1687785134:0;cargo new restaurant --lib
+: 1687806984:0;go
+: 1687807299:0;whoami
+: 1687807396:0;nvim --version
+: 1687807399:0;nvim -v
+: 1687807412:0;nvim -h
+: 1687829199:0;asdfkj
+: 1687829201:0;tmux clear
+: 1687829215:0;tmux clear-prompt-history
+: 1687829225:0;tmux clear-history
+: 1687831713:0;cd statusline
+: 1687831720:256;vim vscode_colored.lua
+: 1687832164:0;documents/rust/
+: 1687900405:0;rm -rf java/chess-game java/snake-game
+: 1687865716:0;documents/rust/restaurant
+: 1687882603:0;mv restaurant testando
+: 1687904263:0;cd .local/share/nvim
+: 1687904593:214;vim nvchad_ui
+: 1687903767:0;time r
+: 1687865704:0;cd restaurant
+: 1687886315:0;echo RUST_BACKTRACE
+: 1687886328:0;echo $RUST_BACKTRACE
+: 1687886342:0;RUST_BACKTRACE=1 cargo run
+: 1687894481:0;touch Hello.txt
+: 1687894496:0;echo "caguei" > Hello.txt
+: 1687894545:0;cat Hello.txt
+: 1687919565:0;cd .local/share/nvim/lazy/ui
+: 1687919655:124;vim lua/nvchad_ui
+: 1687923916:0;cd .local/state
+: 1687923925:0;rm -rf lvim
+: 1687923935:0;cd swap
+: 1687923941:0;rm -rf %home%joao%.config%lazygit%config.yml.swp
+: 1687923977:0;documents/rust/r
+: 1687924052:0;delta
+: 1687924748:6;yay -S git-delta
+: 1687924765:34;vim .gitconfig
+: 1687923775:0;documents/rsut
+: 1687923874:0;cd lazygit
+: 1687924128:17;vim state.yml
+: 1687924803:1460;vim config.yml
+: 1687968414:0;.config/mess
+: 1687968417:30;vim rust.sh
+: 1687968382:0;documents/rust/testando
+: 1687968395:0;rm -rf Hello.txt
+: 1687968399:0;r clean
+: 1687968825:0;touch run
+: 1687968826:17;vim run
+: 1687968864:1;sudo ./run
+: 1687968959:0;chmod +x ./ruhn
+: 1687968967:0;chmod +x ./run
+: 1687968974:0;./run
+: 1687968978:19;vim run.sh
+: 1687969000:0;r check
+: 1687969003:0;r bukld
+: 1687969006:0;r build
+: 1687969016:0;r run
+: 1687969100:0;cargo new hello_world
+: 1687969117:0;cs rust
+: 1687974080:0;cd .local/state/nvim
+: 1687974095:0;cdlazy
+: 1687974097:0;cd lazy
+: 1687974104:0;cd gitsigns.nvim
+: 1687974114:21;vim gitsigns
+: 1687968305:1;vim .
+: 1687970086:0;cd hello_world
+: 1687970093:0;rm -rf hello_world
+: 1687972103:0;cargo new largest
+: 1687972330:0;documents/rust/hello_world
+: 1687972339:0;cd largest
+: 1687983478:0;rm -rf largest
+: 1687983494:0;cargo new adder --lib
+: 1687983698:0;cd adder
+: 1687985459:0;cargo test -q
+: 1687989871:0;rm -rf adder
+: 1687989875:0;cargo new minigrep
+: 1688003736:0;.config/nvim
+: 1688004301:1;cargo run -q
+: 1687990865:0;cargo ru
+: 1687990939:0;cargo run -- neeble haystack
+: 1687991068:0;cargo urn
+: 1687991077:0;cargo run -- needle hystack
+: 1687991162:0;cargo run -q -- needle hystack
+: 1687991203:0;touch poem.txt
+: 1687992922:0;cargo run -q -- the
+: 1687995123:0;mv poem.txt poeta.txt
+: 1687995134:0;mv poeta.txt pema.txt
+: 1687995142:0;mv pema.txt poem.txt
+: 1687995145:0;cargo run -q -- the poem.txt
+: 1687995152:0;cargo run -q -- poem.txt
+: 1687997552:0;cat poem.txt
+: 1687997573:0;cargo run -q -- To poem.txt
+: 1687997585:0;cargo run -q -- tell poem.txt
+: 1687997611:0;cargo run -q -- pica poem.txt
+: 1687997631:0;rg
+: 1687997635:0;rg pica .
+: 1687998880:1;cargo run -q --to poem.tx
+: 1687998882:0;cargo run -q --to poem.txt
+: 1687998889:0;cargo run -q -- to poem.txt
+: 1687998903:0;echo $IGNORE_CASE
+: 1687999008:0;cargo run -- To poem
+: 1687999037:0;cargo run -- To poem.txt
+: 1687999198:0;cargo run > output.txt
+: 1687999203:0;cat output.txt
+: 1687999338:0;rm -rf output.txt
+: 1687999353:0;IGNORE_CASE=1 cargo run -q -- to poem.txt
+: 1687999356:0;IGNORE_CASE=1 cargo run -q -- to
+: 1688003569:0;cargo new closure
+: 1688003574:0;cd closure
+: 1688005653:0;rm -rf closure
+: 1688005658:3;git clone https://github.com/helix-editor/helix.git
+: 1688006273:0;sl
+: 1688006284:0;mv helix ~/documents
+: 1688007322:0;cd share/nvim
+: 1688007330:0;cd state
+: 1688007343:259;vim lsp.log
+: 1688006517:0;documents/helis
+: 1688006519:0;documents/helix
+: 1688007094:2;hx .,
+: 1688007186:0;cd helix-core
+: 1688015162:0;rm -rf vim
+: 1688015168:0;ln -s nvim vi
+: 1688016488:0;cd minigrep
+: 1688017911:0;cdte
+: 1688018155:0;cd documents/rust/testando
+: 1688018516:1;rm -rf helix
+: 1688015821:0;rm -rf config
+: 1688015124:0;documents/
+: 1688015584:0;rm -rf config.rs
+: 1688015628:0;cd src/config
+: 1688015641:0;mv config.rs ../
+: 1688017733:0;time clar
+: 1688017736:0;time clear
+: 1688018063:0;cargo update
+: 1688021056:0;cd rust/snake-ga,e
+: 1688021078:3;cargo add crossterm
+: 1688023944:0;rm -rf theme.py
+: 1688023741:163;vi qtile
+: 1688024687:4;sudo pacman -S alacritty
+: 1688024719:0;sudo pacman -Rs alacrity
+: 1688024725:2;sudo pacman -Rs alacritty
+: 1688048991:0;.config/qtile
+: 1688049147:0;cd .config/qtile
+: 1688066801:0;vim
+: 1688052860:3;cargo add device_query
+: 1688056469:0;cargo check
+: 1688066956:0;cargo ruqn
+: 1688066958:0;cargo ruq
+: 1688067504:0;r
+: 1688073130:5;cargo add colored
+: 1688073592:0;cargor un
+: 1688091023:0;.config/helix
+: 1688091036:0;cp custom-theme.toml custom_ayu.toml
+: 1688091074:182;hx custom_ayu.toml
+: 1688091305:99;hx config.toml
+: 1688089758:0;cargorun
+: 1688090968:0;rm -rf testanso.txt
+: 1688092793:0;df -h .
+: 1688092803:0;df /
+: 1688092826:0;df . -h
+: 1688092833:0;df / -h
+: 1688092845:0;df --help
+: 1688092892:0;df -h /home/joao
+: 1688092940:0;pwd
+: 1688092949:0;df -h /
+: 1688093091:0;du -h /home/joao | grep documents
+: 1688093113:0;du -h /home/joao
+: 1688093202:0;du --help
+: 1688093443:0;du -h /home/joao --summarize
+: 1688093454:0;du -h /home/joao/* --summarize
+: 1688093494:0;cd .chache
+: 1688093500:0;cd .cache
+: 1688093510:0;cd jdtls
+: 1688093512:0;cd config
+: 1688093522:0;cd luac
+: 1688093660:0;rm -rf ./mozilla
+: 1688093687:0;rm -rf ./thumbnails ./vim ./yay
+: 1688093688:0;ks
+: 1688093725:0;rm -rf ./JetBrains ./gstreamer-1.0 ./fontconfig
+: 1688093791:0;cd ./toolchains
+: 1688093810:0;find .
+: 1688093832:0;cd stable-x86_64-unknown-linux-gnu
+: 1688093840:0;du -h ./* --summarize
+: 1688093853:0;ls -h
+: 1688093856:0;ls --help
+: 1688093928:1;ls -R
+: 1688094758:0;df -H
+: 1688094809:0;yay -Qdt
+: 1688094832:0;yay -Q
+: 1688094882:3;yay -Rs nano
+: 1688094013:0;documents/rst
+: 1688094113:0;cargo install
+: 1688094142:0;cargo install --path ~/documents
+: 1688094150:6;cargo install --path ./
+: 1688100238:0;rm -rf minigrep
+: 1688102122:0;cargo new tetris
+: 1688102125:0;cd tetris
+: 1688102179:0;rm -rf tetris
+: 1688102183:0;cargo new by_bevy_game
+: 1688102185:0;cd my
+: 1688102192:0;mv by_bevy_game
+: 1688102198:0;mv by_bevy_game my_bevy_game
+: 1688099493:0;which snake-game
+: 1688100347:8;git clone https://github.com/bevyengine/bevy
+: 1688100371:0;du -h ./bevy --summarize
+: 1688100381:0;du -h ./snake-game --summarize
+: 1688100387:0;cd bavy
+: 1688100433:0;git checkout leatest
+: 1688100441:0;git checkout latest
+: 1688102589:0;cargo --help
+: 1688102612:0;cargo --help --list
+: 1688102618:0;cargo --list
+: 1688102749:0;cargo b --help
+: 1688102784:74;cargo b -r
+: 1688102876:0;cd target
+: 1688102879:0;cd release
+: 1688102886:0;./by_bevy_game
+: 1688102895:0;time ./by_bevy_game
+: 1688103147:0;cargo run --features bevy/dynamic_linking
+: 1688105835:0;fd Menu .
+: 1688105872:0;fd menu ./
+: 1688105885:0;cargo r --examples game_menu
+: 1688105899:55;cargo r --example game_menu
+: 1688106013:0;fd bloom ./
+: 1688106027:55;cargo r --example bloom_2d
+: 1688106092:66;cargo r --example bloom_3d
+: 1688106780:0;cd rsut/bevy
+: 1688106808:86;cargo r --example shadow_biases
+: 1688106910:25;cargo r --example split_screen
+: 1688106947:47;cargo r --example render_to_texture
+: 1688143082:0;cd rust/snake-game
+: 1688137447:0;cd bevy/examples
+: 1688137476:29;cargo run --example breakout
+: 1688137519:2;hx brea
+: 1688137526:0;cd games
+: 1688140742:2308;hx breakout.rs
+: 1688143056:361;btop
+: 1688143967:0;cd nvim/lazy
+: 1688143970:0;cdui
+: 1688143972:0;cd ui
+: 1688143978:0;cd nvchad_ui
+: 1688144005:17;vi init.lua
+: 1688144067:0;cd lua
+: 1688150942:0;mv Planilha\ de\ Atividades\ Complementares_novo\ PPC.xlsx planilha_atividades_complementares.xlsx
+: 1688150948:0;mv planilha_atividades_complementares.xlsx ..
+: 1688150956:0;mkdir eq
+: 1688150959:0;mv planilha_atividades_complementares.xlsx eq
+: 1688150963:0;cd java
+: 1688150971:0;rm -rf java
+: 1688150418:0;cd documents/rust/bevy
+: 1688138499:0;cd rust/bevy
+: 1688138524:0;find * ./src | wc -l
+: 1688138558:18;vi lib.rs
+: 1688138588:0;cd crates
+: 1688138715:0;fd ./src
+: 1688138740:0;fd . ./src | wc -l
+: 1688138746:0;fd . ./src
+: 1688138756:0;fd . ./crates | wc -l
+: 1688138809:0;fd .rs ./crates
+: 1688138813:0;fd .rs ./crates | wc -l
+: 1688138853:0;fd .rs ./crates | cat
+: 1688138879:0;which fd
+: 1688138886:59;snake-game
+: 1688143067:181;vi snake-game
+: 1688345117:0;cd snake
+: 1688346200:0;cd /
+: 1688346203:0;cd home
+: 1688345797:0;du -h .
+: 1688345824:0;du ./* --summarize
+: 1688345854:0;cd zap
+: 1688345859:0;cd plugins
+: 1688345863:0;cd zap-prompt
+: 1688345869:446;hx zap-prompt.zsh-theme
+: 1688346282:0;cd .config/nvim
+: 1688346328:0;vifm
+: 1688346603:0;cd eq
+: 1688348311:0;fd kitty.conf
+: 1688348325:0;fd --help
+: 1688348363:0;fd kitty.conf .
+: 1688348369:0;fd kitty .
+: 1688348381:0;fd kitty.conf ./.config
+: 1688348389:0;cd .config/kitty
+: 1688349314:0;cd documents/rust/
+: 1688349678:0;cargo run --example scene
+: 1688375079:0;carg ob
+: 1688403017:0;rm -rf new-game
+: 1688403030:63;cargo r --example breakout
+: 1688403528:217;hx examples
+: 1688412062:0;hx --health rust
+: 1688412311:0;rm -rf lib.rs snake.rs apple.rs config.rs
+: 1688414218:0;which helix
+: 1688414233:0;cd themes
+: 1688414238:0;rm -rf custom-theme.toml
+: 1688374623:0;cd my_bevy_game
+: 1688374629:0;rm -rf my_bevy_game
+: 1688374640:0;cargo new new-game
+: 1688374643:0;cd new-game
+: 1688378753:0;cd .
+: 1688379212:0;carg or
+: 1688396266:0;cargo clan
+: 1688403754:2;vi .
+: 1688412477:0;cd bevy
+: 1688412480:0;cd examples
+: 1688415396:0;cllear
+: 1688415419:0;cargo new snake-game
+: 1688415426:9;cargo add bevy
+: 1688415447:38;cargo b
+: 1688416383:0;cd documents/rust/bevy/examples
+: 1688422128:0;rm -rf neofetch
+: 1688422144:0;cd dconf
+: 1688422149:0;cat user
+: 1688422300:0;rm -rf LICENSE
+: 1688422367:71;lazygit
+: 1688417417:0;cd snake-game
+: 1688420797:9;cargo add rand
+: 1688422001:0;neofetc
+: 1688422032:0;neofethc
+: 1688422089:13;yay -Rs neofetch
+: 1688422109:0;neofetch
+: 1688415513:0;cd documents/rust/snake-game
+: 1688422731:36;yay -Syyuu
+: 1688430995:4;yay -S alacritty
+: 1688431019:0;cd .config/
+: 1688431037:0;cd mess
+: 1688431118:3;yay -Rs kitty
+: 1688431126:0;rm -rf kitty
+: 1688431177:0;mkdir alacritty
+: 1688431179:0;cd alacritty/q
+: 1688431180:0;cd alacritty/
+: 1688431327:0;cd alacritty
+: 1688431473:0;touch alacritty.yml
+: 1688431575:0;cd documents/downloads
+: 1688431585:0;mv alacritty.yml ~/.config/alacritty
+: 1688435021:0;cd .local/share
+: 1688435023:0;cd fonts
+: 1688435047:0;mkdir change
+: 1688435074:0;mv JetBrains* change
+: 1688435084:0;mv change JetBrainsMono
+: 1688435114:0;rm -rf all-the-icons.ttf material-design-icons.ttf weathericons.ttf OFL.txt readme.md file-icons.ttf octicons.ttf fontawesome.ttf
+: 1688431892:27;hx snake-game
+: 1688433709:0;rm -rf snake-game
+: 1688433714:0;rm -rf bevy
+: 1688433721:1;cargo new test
+: 1688433730:0;cargo new testando
+: 1688438035:1;cargo doc
+: 1688438049:0;cd target/doc
+: 1688438070:0;.
+: 1688438145:0;cargo doc --open
+: 1688438184:0;cd doc
+: 1688438195:3;hx crates.js
+: 1688438203:0;cd src/ls
+: 1688438205:0;cd src/
+: 1688438214:0;c d..
+: 1688438235:0;fd .css ./
+: 1688438404:0;cargo test
+: 1688439358:0;mkdir add
+: 1688439371:0;touch Cargo.toml
+: 1688439399:0;cargo new adder
+: 1688439488:6;hx Cargo.toml
+: 1688439505:0;cargo new add_one --lib
+: 1688439530:0;cd adder/ls
+: 1688439559:0;touch .gitignore
+: 1688439562:9;hx .gitignore
+: 1688439578:0;cd adder/
+: 1688439589:0;cd add_one
+: 1688439595:0;rm -rf .git .gitignore
+: 1688435128:0;cd testando
+: 1688439931:0;cd documents/rust/add
+: 1688440053:0;cargo clean
+: 1688440653:0;rm -rf add
+: 1688440661:0;cargo new thread_test
+: 1688439947:0;cd add
+: 1688499911:0;cd .local/share/fonst
+: 1688499917:0;cd .local/share/font
+: 1688499918:0;cd .local/share/fonts
+: 1688499921:0;cd JetBrainsMono
+: 1688499951:29;hx alacritty.yml
+: 1688479121:0;rm -rf .eclipse .java
+: 1688479139:0;rm -rf .m2
+: 1688479165:0;fd .m2 ./
+: 1688479251:0;fd JetBrains ./
+: 1688479268:0;fd Jet ./
+: 1688479271:0;fd Jet .
+: 1688479283:0;fd .zsh ./
+: 1688479285:0;fd .zsh .
+: 1688479293:0;fd zsh .
+: 1688479309:0;fd zsh ./home
+: 1688479320:0;fd zsh ./home/joao
+: 1688479325:0;fd zsh .//joao
+: 1688479327:0;fd zsh ./joao
+: 1688479334:0;fd .zsh ./joao
+: 1688479341:0;fd doc ./joao
+: 1688479345:0;cd joa
+: 1688479351:0;fd doc ./
+: 1688479395:76;fd --help | more
+: 1688479495:0;fd -H zsh ./
+: 1688479512:0;fd -H .zsh ./
+: 1688480149:0;fd * ./
+: 1688480158:0;s
+: 1688480162:0;fd *
+: 1688480169:0;fd . ./
+: 1688480528:0;cd thread_test
+: 1688504206:0;cd .rustup
+: 1688504211:0;cd toolchains
+: 1688504217:0;rm -rf 1.65.0-x86_64-unknown-linux-gnu
+: 1688511393:0;documents/downloads
+: 1688511400:0;git origin
+: 1688511404:0;git --helpo
+: 1688511405:0;git --help
+: 1688511453:0;git remote --help
+: 1688511628:0;touch README.md
+: 1688511630:36;hx README.md
+: 1688511671:0;git add README.md
+: 1688511680:0;git amend
+: 1688511687:0;git commit --help
+: 1688511722:0;git commit --ammend
+: 1688511779:0;git config --global core.editor "helix"
+: 1688511852:0;git remote -h
+: 1688511891:0;git remote add origin https://github.com/TakingWW/dotfiles.git
+: 1688511897:0;git push
+: 1688511921:0;git push -h
+: 1688511955:0;git remote
+: 1688511963:0;git push origin
+: 1688512016:0;git push -u origin
+: 1688512026:2;git push -u origin main
+: 1688512155:3;rm -rf downloads/*
+: 1688512162:0;clera
+: 1688486303:0;cd documents/rust/thread_test/
+: 1688486432:0;touch hello.html
+: 1688486437:393;hx hello.html
+: 1688501257:0;cp other.html 404.html
+: 1688501259:0;cler
+: 1688501355:57;cargo r
+: 1688504153:0;rustup --help
+: 1688504657:41;python
+: 1688504836:0;la
+: 1688504852:0;mv thread_test web_rust
+: 1688504920:0;touch --help
+: 1688504948:0;mkdir testando
+: 1688504954:0;testando
+: 1688504956:0;which test
+: 1688504972:0;touch testando.rs
+: 1688504974:181;hx testando.rs
+: 1688505301:0;rustc testando.rs
+: 1688505303:0;./testando
+: 1688505618:0;cd qtile
+: 1688505620:118;hx config.py
+: 1688505764:6;vi
+: 1688505781:0;which jdtls
+: 1688505797:3;yay -Rs jdtls
+: 1688509638:0;git diff
+: 1688509740:0;cd ~/documentsrust
+: 1688509747:0;cd ~/documents/rust
+: 1688509749:0;cd web_rust
+: 1688509753:16;lg
+: 1688509786:0;git add *
+: 1688510226:3;yay -Rs lazygit
+: 1688510237:0;.config/
+: 1688510246:0;rm -rf lazygit
+: 1688510301:5;yay -Rs neovim
+: 1688510313:0;cd .local/bin
+: 1688510319:0;rm vi
+: 1688510324:0;rm nvim
+: 1688510341:1;fd nvim /
+: 1688510350:0;sudo fd neovim /
+: 1688510392:0;sudo rm /var/cache/pacman/pkg/neovim*
+: 1688510408:0;java --version
+: 1688510437:0;yay -Q | grep java
+: 1688510482:0;which java
+: 1688510518:0;yay -Rs java
+: 1688510544:0;pacman -Q | grep ja
+: 1688510590:0;yay -Rs java-runtime
+: 1688510596:0;yay -Q | grep ja
+: 1688510630:0;yay -Rs java-environment-common
+: 1688510652:3;yay -Rs maven
+: 1688510661:10;yay -Rs jdk
+: 1688510673:0;java
+: 1688510746:0;echo $EDITOR
+: 1688510755:0;echo $EUID
+: 1688510761:0;echo $EGID
+: 1688510806:0;.config
+: 1688510821:0;cd ,,
+: 1688510827:0;rm -rf nvim
+: 1688510834:0;df
+: 1688510894:0;df -h
+: 1688510999:0;cd downloads
+: 1688511034:1;git clone https://github.com/TakingWW/nvim
+: 1688511049:1;git clone https://github.com/TakingWW/emacs
+: 1688511091:0;cd nvim
+: 1688511099:0;rm -rf .git
+: 1688511103:0;mv .gitignore ..
+: 1688511110:0;cd emacs
+: 1688511193:0;mv README.org README.md
+: 1688511216:0;rm -rf projectile-bookmarks.eld projectile.cache projects
+: 1688511232:0;cat .gitignore
+: 1688511237:0;nvim
+: 1688511286:0;rm -rf .gitignore
+: 1688511290:0;git init
+: 1688513761:0;fd install .
+: 1688513765:0;fd install ./
+: 1688515309:0;cd rsut
+: 1688515312:0;rust
+: 1688515321:0;rm -rf web_rust
+: 1688515634:0;touch elfs.rs
+: 1688515636:447;hx elfs.rs
+: 1688516091:0;cargo new adventure_of_code
+: 1688516100:0;mv elfs.rs adventure_of_code/src
+: 1688516113:0;rm -rf main.rs
+: 1688516116:0;mv elfs.rs main.rs
+: 1688516251:0;touch input.txt
+: 1688520538:0;cd src
+: 1688520549:0;mv input.txt day1.txt
+: 1688520557:0;touch day2.txt
+: 1688525806:0;cargo build
+: 1688526778:0;cargo rn
+: 1688529582:0;mkdir assets
+: 1688529591:0;mv day* assets
+: 1688529653:0;cargo run
+: 1688529879:0;git commit -m "first commit"
+: 1688535851:0;yay -Q | grep libc
+: 1688535887:0;rm -rf testando
+: 1688535889:0;cd bin
+: 1688535897:0;cd lib
+: 1688535944:0;rm -rf .python_history
+: 1688535954:0;du ./* --summarize -h
+: 1688535993:4;git clone https://github.com/helix-editor/helix
+: 1688536153:0;cd..
+: 1688536184:0;cd /bin
+: 1688536204:0;bin
+: 1688536219:0;helix
+: 1688536251:0;unalias hx
+: 1688536313:17;hx --grammar fetch
+: 1688536360:0;hx --gramar build
+: 1688536376:22;hx --grammar build
+: 1688536506:0;cd runtime
+: 1688536509:0;cd grammars
+: 1688536899:0;lx
+: 1688536638:0;cd documents/rust/adventure_of_code
+: 1688536835:0;cd .config/alacritty
+: 1688537412:0;hx --health | grep rust
+: 1688537417:0;documets
+: 1688537576:0;touch rust-toolchain.toml
+: 1688537579:97;hx rust-toolchain.toml
+: 1688537680:0;rm -rf rust-toolchain.toml
+: 1688537811:0;rustup show
+: 1688537868:0;documents
+: 1688537877:0;cargo new joao
+: 1688537895:0;cd .cargo
+: 1688537903:0;cd .cargo/vin
+: 1688537908:0;l
+: 1688537908:0;sls
+: 1688537913:0;rm -rf hx
+: 1688537921:3;yay -S helix
+: 1688537164:0;rustup toolchain default 1.65.0-x86_64-unknown-linux-gnu\
+
+: 1688537183:0;rustup toolchain default
+: 1688537194:0;rustup toolchain -h
+: 1688537259:1;rustup toolchain install 1.65.0-x86_64-unknown-linux-gnu
+: 1688537316:0;rustup toolchain uninstall stable-x86_64-unknown-linux-gnu
+: 1688537376:0;documents/rust/adventure_of_code
+: 1688537389:0;hx --healt
+: 1688540773:0;cd docuemts
+: 1688540804:1;rustup update
+: 1688540844:0;..,
+: 1688540846:0;..
+: 1688540853:0;helix.
+: 1688540855:15;helix .
+: 1688540874:0;helix --helth
+: 1688540879:0;helix --health
+: 1688540939:0;cd .zshrc
+: 1688540952:4;yay -S vim
+: 1688540960:18;vim .zshrc
+: 1688540984:0;cd .local
+: 1688541007:6;vim rust-toolchain.toml
+: 1688541125:3;hx
+: 1688541286:0;cdrust
+: 1688541288:0;cd rust
+: 1688541328:0;rustup toolchain list
+: 1688541431:0;rustup install rust_analyzer
+: 1688541511:0;cd .cargo/bin
+: 1688541519:39;hx .zshrc
+: 1688541641:0;rm -rf rust-analyzer
+: 1688541656:1;cargo install rust_analyzer
+: 1688541669:0;cargo install rust-analyzer
+: 1688541680:0;cargo add rust-analyzer
+: 1688541688:0;rustup install rust-analyzer
+: 1688541702:0;rustup install
+: 1688541737:1;rustup component add rust-analyzer
+: 1688541751:2;rust-analyzer
+: 1688541759:0;which hx
+: 1688541765:0;cd documents
+: 1688541769:0;cd rust/
+: 1688541773:0;rm -rf joao
+: 1688541775:0;cd adventure_of_code
+: 1688541839:0;fd toolchain ./
+: 1688544670:65;cargo install --path helix-term --locked
+: 1688544941:6;ping google.com
+: 1688545172:0;h
+: 1688545175:2;hx ,
+: 1688545523:0;git add ./helix*
+: 1688545862:0;git stusts
+: 1688545866:0;git ststus
+: 1688545868:0;git stsuts
+: 1688545871:0;git statuts
+: 1688548078:0;git add .
+: 1688548094:0;git commit -m "change rust-toolchain"
+: 1688548116:0;git checkout feature
+: 1688548136:0;git checkout development
+: 1688548160:0;git ckeckout -b freature
+: 1688548192:0;git checkout -b development
+: 1688548197:0;git branch
+: 1688548536:2;yay -Rs helix
+: 1688548550:0;yay -Q | wc -l
+: 1688541962:0;rustup default
+: 1688544250:0;cd .config/helix
+: 1688547619:0;git commit -h
+: 1688547662:0;git add ./book* helix*
+: 1688547664:0;git stauts
+: 1688547714:14;git commit --amend
+: 1688547906:0;git config pull.rebase false
+: 1688547908:15;git pull
+: 1688547929:0;git status
+: 1688547935:33;git log
+: 1688547971:0;git log -h
+: 1688547988:3;git log -q
+: 1688548043:0;git log -pretty
+: 1688548047:3;git log --pretty
+: 1688548715:46;hx .gitconfig
+: 1688548767:0;cd .config
+: 1688548788:0;cd helix
+: 1688548797:0;cd ..
+: 1688548803:0;cd .local/helis
+: 1688548805:0;cd .local/helix
+: 1688548809:0;git show
+: 1688548816:0;claer
+: 1688548816:0;clear
+: 1688548860:0;shutdown now
+: 1688541134:0;cd documetns
+: 1688541149:0;cd documents/rust
+: 1688541151:0;cd joao
+: 1688541152:3;hx .
+: 1688541160:0;hx --health
+: 1688571816:0;ll
+: 1688571825:4;hx .xinitrc
+: 1688571843:0;rm -rf .viminfo
+: 1688571941:0;which nu
+: 1688571962:2;sudo chsh /bin/nu
+: 1688571973:8;chsh
+: 1688571171:0;documents/rus
+: 1688571175:0;documents/rust
+: 1688571268:0;day
+: 1688571272:0;uptime
+: 1688571274:0;sys
+: 1688571594:11;yay -S nushell
+: 1688571740:247;nu
+: 1688571164:824;t
+: 1688571999:0;echo $SHELL
+: 1688571152:0;startx
+: 1688572046:1;reboot
+: 1688573017:0;echo $ZAP_DIR
+: 1688573030:0;echo "$ZAP_DIR"
+: 1688573040:0;rm -rf "$ZAP_DIR"
+: 1688573041:0;ls
+: 1688573042:0;cd
+: 1688573047:0;cd .local/zap

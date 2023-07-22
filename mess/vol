@@ -1,0 +1,35 @@
+#!/bin/bash
+
+call() {
+	command="pactl set-sink-volume @DEFAULT_SINK@"
+	command="$command $value$1%"
+	eval $command
+	echo $message
+}
+increase() {
+	value="+"
+	message="volume increased by $1"
+	call $1
+}
+decrease() {
+	value="-"
+	message="volume decreased by $1"
+	call $1
+}
+set() {
+	value=""
+	message="volume set to $1"
+	call $1
+}
+
+while getopts 'p:m:s:' FLAG
+
+do
+        case "$FLAG" in
+                p) increase "$OPTARG";;
+                m) decrease "$OPTARG";;
+                s) set "$OPTARG";;
+                *) echo "Invalid option: -$flag." && help ;;
+        esac
+done
+
